@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include subscription_coupons *.css
+recursive-include subscription_coupons *.csv
+recursive-include subscription_coupons *.html
+recursive-include subscription_coupons *.ico
+recursive-include subscription_coupons *.js
+recursive-include subscription_coupons *.json
+recursive-include subscription_coupons *.md
+recursive-include subscription_coupons *.png
+recursive-include subscription_coupons *.py
+recursive-include subscription_coupons *.svg
+recursive-include subscription_coupons *.txt
+recursive-exclude subscription_coupons *.pyc
