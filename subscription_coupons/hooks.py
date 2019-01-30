@@ -35,6 +35,9 @@ doc_events = {
         "before_insert": "subscription_coupons.subscription_coupons.doctype.subscription_coupon_code.subscription_coupon_code.validate"
     }
 }
+
+fixtures = [{'doctype': 'Subscription'}]
+
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
