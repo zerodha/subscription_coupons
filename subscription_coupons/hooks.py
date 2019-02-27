@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from . import __version__ as app_version
 
 app_name = "subscription_coupons"
 app_title = "Subscription Coupons"
@@ -32,11 +31,16 @@ doctype_js = {
 
 doc_events = {
     "Subscription": {
-        "before_insert": "subscription_coupons.subscription_coupons.doctype.subscription_coupon_code.subscription_coupon_code.validate"
+        "before_insert": "subscription_coupons.subscription_coupons.doctype.subscription_coupon_code.subscription_coupon_code.validate" # noqa
     }
 }
 
-fixtures = [{'doctype': 'Subscription'}]
+fixtures = [{
+    'dt': 'Custom Field',
+    "filters": {
+        "dt": "Subscription", "fieldname": "coupon_code"
+    }
+}]
 
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
