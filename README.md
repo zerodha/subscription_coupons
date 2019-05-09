@@ -2,7 +2,7 @@
 Subscription Coupons is a frappe application used to create and manage subscription coupon codes.
 
 #### What does it do?
-  - Creat and manage coupon code for subscription.
+  - Create and manage coupon code for subscription.
   - Create user specific coupon code. 
   - Create coupon code with specific discount amount/percentage.
   - Create coupon code which is applicabe only for a specific `Subscription Plan` or `All plans`.
