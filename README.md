@@ -25,7 +25,7 @@ Subscription Coupons uses a number of open source projects to work properly:
 * ERPNext - ERP Software
 
 ### Features
-> Create discount couponse and manage, set expiry for a coupon code
+> Create discount coupons and manage, set expiry for a coupon code
 > User can specify start and end date time of Coupon code 
 
 ### Installation
