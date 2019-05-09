@@ -16,7 +16,7 @@ Subscription Coupons uses a number of open source projects to work properly:
 
 ### Features
 > Create discount couponse and manage, set expiry for a coupon code
-> User cab specify start and end date time of Coupon code 
+> User can specify start and end date time of Coupon code 
 
 ### Installation
 
