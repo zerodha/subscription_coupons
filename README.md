@@ -1,3 +1,5 @@
+ <a href="https://zerodha.tech"><img src="https://zerodha.tech/static/images/github-badge.svg" align="right" /></a>
+
 # Subscription Coupons
 Subscription Coupons is a frappe application used to create and manage subscription coupon codes.
 
